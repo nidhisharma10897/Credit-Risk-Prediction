@@ -12,39 +12,39 @@ The project begins by loading a financial dataset related to manufacturing using
 Initial data exploration is performed, including checking the structure, data types, and summary statistics of the dataset.
 
 
-4. Handling Missing Values:
+2. Handling Missing Values:
 
 Traditional approaches are employed to handle missing values. The dataset is modified by filling missing values with zeros.
 
 
-5. Exploratory Data Analysis (EDA):
+3. Exploratory Data Analysis (EDA):
 
 Exploratory Data Analysis is conducted to gain insights into the dataset.
 
 Descriptive statistics, correlation analysis, and data visualization are performed to understand the relationships and patterns in the data.
 
 
-6. Feature Engineering:
+4. Feature Engineering:
 
 The time-related features are extracted from the 'Time' variable, including year, month, date, week day, start time, hour, and minutes.
 
 Data distribution analysis based on different time components is visualized using seaborn.
 
 
-7. Data Scaling and Imbalance Treatment:
+5. Data Scaling and Imbalance Treatment:
 
 Feature scaling is applied using StandardScaler to standardize the features.
 
 Imbalance treatment is performed using Random OverSampling and SMOTE (Synthetic Minority Over-sampling Technique) to handle the class imbalance problem.
 
 
-8. Dimensionality Reduction:
+6. Dimensionality Reduction:
 
 Principal Component Analysis (PCA) is utilized for dimensionality reduction, retaining 95% of the 
 variance in the data.
 
 
-9. Model Building (Traditional ML):
+7. Model Building (Traditional ML):
 
 The dataset is split into independent (features) and dependent (target) variables.
 
@@ -56,7 +56,7 @@ calculated.
 Cross-validation is applied to assess the model's performance on different subsets of the data.
 
 
-10. Deep Neural Network (DNN) - Artificial Neural Network (ANN):
+8. Deep Neural Network (DNN) - Artificial Neural Network (ANN):
 
 A DNN model is built using TensorFlow and Keras.
 
@@ -67,7 +67,7 @@ The model is compiled with binary crossentropy loss and accuracy metrics.
 Training is conducted on the training set, and the model is evaluated on the test set.
 
 
-11. Model Evaluation and Comparison:
+9. Model Evaluation and Comparison:
 
 Both the Random Forest Classifier and the DNN model are evaluated using various metrics.
 
