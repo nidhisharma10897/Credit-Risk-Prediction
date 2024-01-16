@@ -1,9 +1,9 @@
 # Manufacture Insight: Integrating ML and Neural Networks for Predictive Analytics:
 
-The provided project involves the application of Machine Learning (ML) and Neural Networks to conduct predictive analytics for a Risk Analytics Initiative in Strategic Financial Oversight within the manufacturing sector. The primary focus is on credit risk modeling, particularly predicting the Probability of Default using logistic regression. The project also emphasizes addressing imbalanced data, conducting thorough model validation, and comparing the results of traditional ML methods with Neural Networks.
+• The provided project involves the application of Machine Learning (ML) and Neural Networks to conduct predictive analytics for a Risk Analytics Initiative in Strategic Financial Oversight within the manufacturing sector. The primary focus is on credit risk modeling, particularly predicting the Probability of Default using logistic regression. The project also emphasizes addressing imbalanced data, conducting thorough model validation, and comparing the results of traditional ML methods with Neural Networks.
 
 
-A detailed breakdown of the project:
+• A detailed breakdown of the project:
 
 1. Data Exploration and Preprocessing:
 
